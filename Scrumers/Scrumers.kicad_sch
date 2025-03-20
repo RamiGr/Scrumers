@@ -858,24 +858,24 @@
 		)
 	)
 	(junction
-		(at 128.27 110.49)
+		(at 144.78 110.49)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "7aeac8cf-5a83-47d8-9ee2-3da3387aa506")
+		(uuid "88e9a39a-8622-4908-ad55-8e67c4539770")
 	)
 	(wire
 		(pts
-			(xy 128.27 110.49) (xy 125.73 110.49)
+			(xy 147.32 110.49) (xy 144.78 110.49)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "0f139928-8171-4979-8fc0-ffc372867bf2")
+		(uuid "1e9df758-1b2b-4e86-bb12-faeb3199fd0a")
 	)
 	(wire
 		(pts
-			(xy 125.73 110.49) (xy 125.73 107.95)
+			(xy 144.78 110.49) (xy 144.78 107.95)
 		)
 		(stroke
 			(width 0)
@@ -895,17 +895,7 @@
 	)
 	(wire
 		(pts
-			(xy 128.27 110.49) (xy 144.78 110.49)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "71ebc7f9-d92e-475f-9895-22a1028a3371")
-	)
-	(wire
-		(pts
-			(xy 128.27 107.95) (xy 128.27 110.49)
+			(xy 147.32 107.95) (xy 147.32 110.49)
 		)
 		(stroke
 			(width 0)
@@ -915,7 +905,7 @@
 	)
 	(wire
 		(pts
-			(xy 130.81 57.15) (xy 148.59 57.15)
+			(xy 149.86 57.15) (xy 148.59 57.15)
 		)
 		(stroke
 			(width 0)
@@ -935,7 +925,7 @@
 	)
 	(symbol
 		(lib_id "MCU_Module:Arduino_Nano_v3.x")
-		(at 125.73 82.55 0)
+		(at 144.78 82.55 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -944,7 +934,7 @@
 		(fields_autoplaced yes)
 		(uuid "26b4e599-ae06-4e55-96ba-cbacca8aa022")
 		(property "Reference" "A1"
-			(at 130.4641 107.95 0)
+			(at 149.5141 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -953,7 +943,7 @@
 			)
 		)
 		(property "Value" "Arduino_Nano_v3.x"
-			(at 130.4641 110.49 0)
+			(at 149.5141 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -962,7 +952,7 @@
 			)
 		)
 		(property "Footprint" "Module:Arduino_Nano"
-			(at 125.73 82.55 0)
+			(at 144.78 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -972,7 +962,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.mouser.com/pdfdocs/Gravitech_Arduino_Nano3_0.pdf"
-			(at 125.73 82.55 0)
+			(at 144.78 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -981,7 +971,7 @@
 			)
 		)
 		(property "Description" "Arduino Nano v3.x"
-			(at 125.73 82.55 0)
+			(at 144.78 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
