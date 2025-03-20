@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP MIC28514T-E_PHA
+D Microchip MIC28514T-E/PHA, Buck/Boost Converter Buck Converter 5A, Adjustable, 880 kHz 32-Pin, VQFN
+K
+F http://ww1.microchip.com/downloads/en/DeviceDoc/20005693C.pdf
+$ENDCMP
+#
+#End Doc Library
