@@ -7,7 +7,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "IC"
-			(at 13.716 -8.128 0)
+			(at 29.21 7.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16,7 +16,7 @@
 			)
 		)
 		(property "Value" "MIC28514T-E_PHA"
-			(at 11.43 -11.684 0)
+			(at 29.21 5.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -45,7 +45,7 @@
 			)
 		)
 		(property "Description" "Microchip MIC28514T-E/PHA, Buck/Boost Converter Buck Converter 5A, Adjustable, 880 kHz 32-Pin, VQFN"
-			(at 6.096 16.002 0)
+			(at 6.096 13.462 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -105,7 +105,7 @@
 		)
 		(symbol "MIC28514T-E_PHA_1_1"
 			(rectangle
-				(start 5.08 12.7)
+				(start 5.08 2.54)
 				(end 38.1 -45.72)
 				(stroke
 					(width 0.254)
@@ -116,7 +116,43 @@
 				)
 			)
 			(pin passive line
-				(at 0 7.62 0)
+				(at -29.21 -19.05 0)
+				(length 5.08)
+				(name "ILIM"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -16.51 -25.4 0)
+				(length 5.08)
+				(name "BST"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 0 0)
 				(length 5.08)
 				(name "PVDD"
 					(effects
@@ -134,7 +170,7 @@
 				)
 			)
 			(pin passive line
-				(at 0 1.27 0)
+				(at 0 -6.35 0)
 				(length 5.08)
 				(name "VDD"
 					(effects
@@ -144,96 +180,6 @@
 					)
 				)
 				(number "30"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 0 -3.81 0)
-				(length 5.08)
-				(name "PG"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "32"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 0 -6.35 0)
-				(length 5.08)
-				(name "EN"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "24"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 0 -10.16 0)
-				(length 5.08)
-				(name "SS"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "26"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 0 -19.05 0)
-				(length 5.08)
-				(name "FREQ"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "25"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 0 -27.94 0)
-				(length 5.08)
-				(name "EXTVDD"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "23"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -368,42 +314,6 @@
 				)
 			)
 			(pin passive line
-				(at 26.67 -50.8 90)
-				(length 5.08)
-				(name "PGND_8"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "33"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 29.21 -50.8 90)
-				(length 5.08)
-				(name "PGND_9"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "36"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
 				(at 34.29 -50.8 90)
 				(length 5.08)
 				(name "AGND"
@@ -422,25 +332,7 @@
 				)
 			)
 			(pin passive line
-				(at 43.18 11.43 180)
-				(length 5.08)
-				(name "SVIN"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "31"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 43.18 6.35 180)
+				(at 43.18 -1.27 180)
 				(length 5.08)
 				(name "VIN_1"
 					(effects
@@ -458,7 +350,7 @@
 				)
 			)
 			(pin passive line
-				(at 43.18 3.81 180)
+				(at 43.18 -3.81 180)
 				(length 5.08)
 				(name "VIN_2"
 					(effects
@@ -476,7 +368,7 @@
 				)
 			)
 			(pin passive line
-				(at 43.18 1.27 180)
+				(at 43.18 -6.35 180)
 				(length 5.08)
 				(name "VIN_3"
 					(effects
@@ -494,7 +386,7 @@
 				)
 			)
 			(pin passive line
-				(at 43.18 -1.27 180)
+				(at 43.18 -8.89 180)
 				(length 5.08)
 				(name "VIN_4"
 					(effects
@@ -512,7 +404,7 @@
 				)
 			)
 			(pin passive line
-				(at 43.18 -3.81 180)
+				(at 43.18 -11.43 180)
 				(length 5.08)
 				(name "VIN_5"
 					(effects
@@ -530,7 +422,7 @@
 				)
 			)
 			(pin passive line
-				(at 43.18 -6.35 180)
+				(at 43.18 -13.97 180)
 				(length 5.08)
 				(name "VIN_6"
 					(effects
@@ -548,7 +440,7 @@
 				)
 			)
 			(pin passive line
-				(at 43.18 -8.89 180)
+				(at 43.18 -16.51 180)
 				(length 5.08)
 				(name "VIN_7"
 					(effects
@@ -566,43 +458,7 @@
 				)
 			)
 			(pin passive line
-				(at 43.18 -11.43 180)
-				(length 5.08)
-				(name "VIN_8"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "34"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 43.18 -15.24 180)
-				(length 5.08)
-				(name "BST"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "4"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 43.18 -17.78 180)
+				(at 43.18 -24.13 180)
 				(length 5.08)
 				(name "SW_1"
 					(effects
@@ -620,7 +476,7 @@
 				)
 			)
 			(pin passive line
-				(at 43.18 -20.32 180)
+				(at 43.18 -26.67 180)
 				(length 5.08)
 				(name "SW_2"
 					(effects
@@ -638,7 +494,7 @@
 				)
 			)
 			(pin passive line
-				(at 43.18 -22.86 180)
+				(at 43.18 -29.21 180)
 				(length 5.08)
 				(name "SW_3"
 					(effects
@@ -656,7 +512,7 @@
 				)
 			)
 			(pin passive line
-				(at 43.18 -25.4 180)
+				(at 43.18 -31.75 180)
 				(length 5.08)
 				(name "SW_4"
 					(effects
@@ -674,7 +530,7 @@
 				)
 			)
 			(pin passive line
-				(at 43.18 -27.94 180)
+				(at 43.18 -34.29 180)
 				(length 5.08)
 				(name "SW_5"
 					(effects
@@ -692,7 +548,7 @@
 				)
 			)
 			(pin passive line
-				(at 43.18 -30.48 180)
+				(at 43.18 -36.83 180)
 				(length 5.08)
 				(name "SW_6"
 					(effects
@@ -710,7 +566,169 @@
 				)
 			)
 			(pin passive line
-				(at 43.18 -33.02 180)
+				(at 57.15 -58.42 180)
+				(length 5.08)
+				(name "EXTVDD"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "23"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 57.15 -60.96 180)
+				(length 5.08)
+				(name "EN"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "24"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 57.15 -63.5 180)
+				(length 5.08)
+				(name "FREQ"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "25"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 57.15 -66.04 180)
+				(length 5.08)
+				(name "SS"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "26"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 57.15 -68.58 180)
+				(length 5.08)
+				(name "FB"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "27"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 57.15 -78.74 180)
+				(length 5.08)
+				(name "SVIN"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "31"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 57.15 -81.28 180)
+				(length 5.08)
+				(name "PG"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "32"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 57.15 -83.82 180)
+				(length 5.08)
+				(name "PGND_8"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "33"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 57.15 -86.36 180)
+				(length 5.08)
+				(name "VIN_8"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "34"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 57.15 -88.9 180)
 				(length 5.08)
 				(name "SW_7"
 					(effects
@@ -728,34 +746,16 @@
 				)
 			)
 			(pin passive line
-				(at 43.18 -35.56 180)
+				(at 57.15 -91.44 180)
 				(length 5.08)
-				(name "ILIM"
+				(name "PGND_9"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "1"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 43.18 -38.1 180)
-				(length 5.08)
-				(name "FB"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "27"
+				(number "36"
 					(effects
 						(font
 							(size 1.27 1.27)
