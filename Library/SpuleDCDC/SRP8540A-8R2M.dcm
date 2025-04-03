@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP SRP8540A-8R2M
+D 8.2 H Shielded Inductor 6 A 51mOhm Max Nonstandard
+K
+F https://www.bourns.com/docs/product-datasheets/srp8540a.pdf
+$ENDCMP
+#
+#End Doc Library

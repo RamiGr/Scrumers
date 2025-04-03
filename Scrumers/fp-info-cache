@@ -1,4 +1,4 @@
-24739091311293276
+24746064464755320
 AL8862SP-13
 SOIC127P600X170-9N
 
@@ -91867,6 +91867,20 @@ https://www.farnell.com/cad/316865.pdf?_ga=2.37208032.177107060.1530611323-24901
 0
 48
 48
+SpuleDCDC
+INDPM8884X400N
+8.1mm x 4mm
+Inductor
+0
+2
+2
+SpuleLED
+INDPM125125X800N
+SRR1280-101M-1
+Inductor
+0
+2
+2
 Symbol
 CE-Logo_8.5x6mm_SilkScreen
 CE marking
@@ -97516,6 +97530,20 @@ screw terminal thread redcube thr power connector
 0
 18
 1
+Terminal_2
+1851902
+1851902
+Connector
+0
+2
+2
+Terminal_3
+1803280
+1803280
+Connector
+0
+3
+3
 TestPoint
 TestPoint_2Pads_Pitch2.54mm_Drill0.8mm
 Test point with 2 pins, pitch 2.54mm, drill diameter 0.8mm

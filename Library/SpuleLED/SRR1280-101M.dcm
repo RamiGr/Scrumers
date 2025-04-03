@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP SRR1280-101M
+D Power inductor SMD shielded 100uH Bourns SRR1280 Series Shielded Wire-wound SMD Inductor with a Ferrite Core, 100 uH +/-20% 2.1A Idc Q:18
+K
+F https://componentsearchengine.com/Datasheets/2/SRR1280-101M.pdf
+$ENDCMP
+#
+#End Doc Library

@@ -476,11 +476,36 @@
       },
       {
         "bus_width": 12,
+        "clearance": 0.2,
+        "diff_pair_gap": 0.25,
+        "diff_pair_width": 0.2,
         "line_style": 0,
-        "name": "PWR",
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "0.5A",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 0,
+        "schematic_color": "rgb(31, 121, 255)",
+        "track_width": 0.5,
+        "via_diameter": 0.6,
+        "via_drill": 0.3,
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "clearance": 0.3,
+        "diff_pair_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "line_style": 0,
+        "microvia_diameter": 0.6,
+        "microvia_drill": 0.3,
+        "name": "PWR",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 1,
         "schematic_color": "rgb(255, 25, 0)",
+        "track_width": 1.0,
+        "via_diameter": 1.0,
+        "via_drill": 0.5,
         "wire_width": 6
       }
     ],
@@ -491,6 +516,63 @@
     "netclass_assignments": {
       "+5V": [
         "PWR"
+      ],
+      "Net-(D1-A)": [
+        "0.5A"
+      ],
+      "Net-(D2-A)": [
+        "0.5A"
+      ],
+      "Net-(D3-A)": [
+        "0.5A"
+      ],
+      "Net-(D4-A)": [
+        "0.5A"
+      ],
+      "Net-(D5-A)": [
+        "0.5A"
+      ],
+      "Net-(D6-A)": [
+        "0.5A"
+      ],
+      "Net-(IC1-BST)": [
+        "PWR"
+      ],
+      "Net-(J11-Pin_1)": [
+        "0.5A"
+      ],
+      "Net-(J11-Pin_2)": [
+        "0.5A"
+      ],
+      "Net-(J12-Pin_1)": [
+        "0.5A"
+      ],
+      "Net-(J12-Pin_2)": [
+        "0.5A"
+      ],
+      "Net-(J13-Pin_1)": [
+        "0.5A"
+      ],
+      "Net-(J13-Pin_2)": [
+        "0.5A"
+      ],
+      "Net-(J14-Pin_1)": [
+        "0.5A"
+      ],
+      "Net-(J14-Pin_2)": [
+        "0.5A"
+      ],
+      "Net-(J8-Pin_1)": [
+        "0.5A"
+      ],
+      "Net-(J8-Pin_2)": [
+        "0.5A"
+      ],
+      "Net-(J9-Pin_1)": [
+        "0.5A"
+      ],
+      "Net-(J9-Pin_2)": [
+        "0.5A"
       ],
       "VCC": [
         "PWR"

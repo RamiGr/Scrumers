@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP 1851902
+D PCB header, nominal cross section: 1.5 mm?, color: green, nominal current: 8 A, rated voltage (III/2): 160 V, contact surface: Gold, type of contact: Male connector, Number of potentials: 2, Number of rows: 1, Number of positions per row: 2, number of connections: 2, product range: MC 1,5/..-G, pitch: 3.81 mm, mounting: Wave soldering, pin layout: Linear pinning, solder pin [P]: 3.4 mm, Stecksystem: MINI COMBICON, Locking: without, type of packaging: packed in cardboard
+K
+F http://www.phoenixcontact.com/gb/produkte/1851902
+$ENDCMP
+#
+#End Doc Library
