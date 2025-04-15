@@ -2452,7 +2452,7 @@
 		)
 		(uuid "fcff5ccc-7a08-4c6d-b3c8-3ed0c04f4b7f")
 	)
-	(global_label "LED1"
+	(global_label "LED2"
 		(shape input)
 		(at 127 143.51 180)
 		(fields_autoplaced yes)
@@ -2474,7 +2474,7 @@
 			)
 		)
 	)
-	(global_label "LED1"
+	(global_label "LED5"
 		(shape input)
 		(at 54.61 54.61 180)
 		(fields_autoplaced yes)
@@ -2496,7 +2496,7 @@
 			)
 		)
 	)
-	(global_label "LED1"
+	(global_label "LED3"
 		(shape input)
 		(at 54.61 100.33 180)
 		(fields_autoplaced yes)
@@ -2518,7 +2518,7 @@
 			)
 		)
 	)
-	(global_label "LED1"
+	(global_label "LED4"
 		(shape input)
 		(at 128.27 101.6 180)
 		(fields_autoplaced yes)
@@ -2562,7 +2562,7 @@
 			)
 		)
 	)
-	(global_label "LED1"
+	(global_label "LED6"
 		(shape input)
 		(at 128.27 55.88 180)
 		(fields_autoplaced yes)
@@ -3543,7 +3543,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SpuleLED:INDPM125125X800N"
+		(property "Footprint" "SpuleLED2:VLS6045"
 			(at 167.64 109.22 0)
 			(effects
 				(font
@@ -5030,7 +5030,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SpuleLED:INDPM125125X800N"
+		(property "Footprint" "SpuleLED2:VLS6045"
 			(at 167.64 63.5 0)
 			(effects
 				(font
@@ -5107,7 +5107,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SpuleLED:INDPM125125X800N"
+		(property "Footprint" "SpuleLED2:VLS6045"
 			(at 166.37 151.13 0)
 			(effects
 				(font
@@ -5314,7 +5314,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SpuleLED:INDPM125125X800N"
+		(property "Footprint" "SpuleLED2:VLS6045"
 			(at 92.71 149.86 0)
 			(effects
 				(font
@@ -5597,7 +5597,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SpuleLED:INDPM125125X800N"
+		(property "Footprint" "SpuleLED2:VLS6045"
 			(at 93.98 62.23 0)
 			(effects
 				(font
@@ -7413,7 +7413,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SpuleLED:INDPM125125X800N"
+		(property "Footprint" "SpuleLED2:VLS6045"
 			(at 93.98 107.95 0)
 			(effects
 				(font

@@ -95,7 +95,7 @@
         "padstack": "warning",
         "pth_inside_courtyard": "ignore",
         "shorting_items": "error",
-        "silk_edge_clearance": "warning",
+        "silk_edge_clearance": "ignore",
         "silk_over_copper": "warning",
         "silk_overlap": "warning",
         "skew_out_of_range": "error",
@@ -484,7 +484,7 @@
         "microvia_drill": 0.1,
         "name": "0.5A",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 0,
+        "priority": 1,
         "schematic_color": "rgb(31, 121, 255)",
         "track_width": 0.5,
         "via_diameter": 0.6,
@@ -493,7 +493,24 @@
       },
       {
         "bus_width": 12,
-        "clearance": 0.3,
+        "clearance": 0.2,
+        "diff_pair_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "IC",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 0,
+        "schematic_color": "rgb(228, 34, 200)",
+        "track_width": 0.3,
+        "via_diameter": 0.6,
+        "via_drill": 0.3,
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "clearance": 0.2,
         "diff_pair_gap": 0.25,
         "diff_pair_width": 0.2,
         "line_style": 0,
@@ -501,7 +518,7 @@
         "microvia_drill": 0.3,
         "name": "PWR",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 1,
+        "priority": 2,
         "schematic_color": "rgb(255, 25, 0)",
         "track_width": 1.0,
         "via_diameter": 1.0,
@@ -516,6 +533,15 @@
     "netclass_assignments": {
       "+5V": [
         "PWR"
+      ],
+      "GND": [
+        "IC"
+      ],
+      "GNDA": [
+        "IC"
+      ],
+      "Net-(C7-Pad2)": [
+        "IC"
       ],
       "Net-(D1-A)": [
         "0.5A"
@@ -537,6 +563,30 @@
       ],
       "Net-(IC1-BST)": [
         "PWR"
+      ],
+      "Net-(IC1-EXTVDD)": [
+        "IC"
+      ],
+      "Net-(IC1-FB)": [
+        "IC"
+      ],
+      "Net-(IC1-FREQ)": [
+        "IC"
+      ],
+      "Net-(IC1-ILIM)": [
+        "IC"
+      ],
+      "Net-(IC1-PVDD)": [
+        "IC"
+      ],
+      "Net-(IC1-SS)": [
+        "IC"
+      ],
+      "Net-(IC1-SVIN)": [
+        "IC"
+      ],
+      "Net-(IC1-VDD)": [
+        "IC"
       ],
       "Net-(J11-Pin_1)": [
         "0.5A"
@@ -651,14 +701,98 @@
           "label": "DNP",
           "name": "${DNP}",
           "show": true
+        },
+        {
+          "group_by": false,
+          "label": "#",
+          "name": "${ITEM_NUMBER}",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Height",
+          "name": "Height",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Link",
+          "name": "Link",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "MP",
+          "name": "MP",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Manufacturer_Name",
+          "name": "Manufacturer_Name",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Manufacturer_Part_Number",
+          "name": "Manufacturer_Part_Number",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Mosuer No.",
+          "name": "Mosuer No.",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Mouser No.",
+          "name": "Mouser No.",
+          "show": true
+        },
+        {
+          "group_by": false,
+          "label": "Mouser Part Number",
+          "name": "Mouser Part Number",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Mouser Price/Stock",
+          "name": "Mouser Price/Stock",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Package",
+          "name": "Package",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Sim.Device",
+          "name": "Sim.Device",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Sim.Pins",
+          "name": "Sim.Pins",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Beschreibung",
+          "name": "Description",
+          "show": false
         }
       ],
       "filter_string": "",
       "group_symbols": true,
       "include_excluded_from_bom": false,
-      "name": "Grouped By Value",
+      "name": "",
       "sort_asc": true,
-      "sort_field": "Referenz"
+      "sort_field": "Reference"
     },
     "connection_grid_size": 50.0,
     "drawing": {

@@ -1,4 +1,4 @@
-24746064464755320
+24751297290608012
 AL8862SP-13
 SOIC127P600X170-9N
 
@@ -65862,6 +65862,13 @@ Yellow 5381 Series LED
 0
 2
 2
+Library
+Luftdruck_6
+
+
+0
+6
+6
 Module
 A20_OLINUXINO_LIME2
 A20 Olinuxino LIME2, 1.2GHz, 512-1024MB RAM, Micro-SD, NAND or eMMC, 1000Mbit Ethernet
@@ -91881,6 +91888,13 @@ Inductor
 0
 2
 2
+SpuleLED2
+VLS6045
+VLS6045
+Inductor
+0
+2
+2
 Symbol
 CE-Logo_8.5x6mm_SilkScreen
 CE marking
@@ -97537,6 +97551,13 @@ Connector
 0
 2
 2
+Terminal_2
+PinSocket_1x06_P2.54mm_Vertical
+Through hole straight socket strip, 1x06, 2.54mm pitch, single row (from Kicad 4.0.7), script generated
+Through hole socket strip THT 1x06 2.54mm single row
+0
+6
+6
 Terminal_3
 1803280
 1803280
